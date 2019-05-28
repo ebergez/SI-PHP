@@ -6,9 +6,10 @@
     </div>
   </div>
   <ul class="stats">
-    <li></li>
-    <li></li>
-    <li></li>
+ 
+    <li><?php echo $_SESSION["followers"] ?></li>
+    <li><?php echo $_SESSION["abonnements"] ?></li>
+    <li><?php echo $_SESSION["projects"] ?></li>
 
   </ul>
 </section>
