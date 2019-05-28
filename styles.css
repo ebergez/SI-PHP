@@ -157,7 +157,7 @@ input[type="search"] {
 }
 
 .profilePicAndName {
-    height: 24vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -178,7 +178,7 @@ input[type="search"] {
     font-family: oxygen-bold;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 19px;
 }
 
@@ -221,7 +221,7 @@ input[type="search"] {
 .bestFriendsContent {
     display: flex;
     flex-wrap: nowrap;
-    height: 500px;
+    height: 260px;
 }
 
 .bestFriendsPicture1 {
@@ -252,11 +252,73 @@ input[type="search"] {
 .bestFriendsLabels {
     display: flex;
     width: 12vw;
+    height: 25vh;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .bestFriendsLabels a {
-    width: 100px;
+    font-family: oxygen-regular;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.recentProjectsTitle {
+    font-family: oxygen-bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    margin-left: 1vw;
+}
+
+.recentProjectsContent {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 500px;
+}
+
+.recentProjectsPicture1 {
+    background: url(assets/images/Mali.svg);
+    width: 30px;
+    height: 30px;
+}
+.recentProjectsPicture2 {
+    background: url(assets/images/Fiacre.svg);
+    width: 30px;
+    height: 30px;
+}
+.recentProjectsPicture3 {
+    background: url(assets/images/Les\ Valis.svg);
+    width: 30px;
+    height: 30px;
+}
+
+.recentProjectsPictures {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 25vh;
+    margin-left: 1vw;
+    width: 40px;
+}
+
+.recentProjectsLabels {
+    display: flex;
+    width: 12vw;
+    height: 25vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.recentProjectsLabels a {
+    font-family: oxygen-regular;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
 }
 
 .test {
