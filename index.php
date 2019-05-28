@@ -17,8 +17,12 @@
     ]
 );
 session_start();
-$_SESSION["prenom"]= "emile";
-$_SESSION["nom"]= "bergez" 
+$_SESSION["prenom"]= "Amanda";
+$_SESSION["nom"]= "Johnson" ;
+$_SESSION["followers"]= 12; 
+$_SESSION["abonnements"]= 33; 
+$_SESSION["projects"]= 42 ;
+
 ?>
 <body>
 <?php include 'menu.php'?>
