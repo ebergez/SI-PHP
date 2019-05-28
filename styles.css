@@ -218,25 +218,46 @@ input[type="search"] {
     margin-top: 4vh;
 }
 
-.bestFriendsName {
-    text-decoration: none;
-    color: black;
-    width: 10vw;
-    height: 15px;
-    margin-left: 1vw;
-    
-    font-family: oxygen-regular;
-    font-size: 15px;
-    
+.bestFriendsContent {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 500px;
 }
 
-.bestFriends li {
-    margin-left: 1vw;
-    margin-top: 2vh;
+.bestFriendsPicture1 {
+    background: url(assets/images/Maxime\ Frisou.svg);
+    width: 30px;
+    height: 30px;
+}
+.bestFriendsPicture2 {
+    background: url(assets/images/Jane\ Meyer.svg);
+    width: 30px;
+    height: 30px;
+}
+.bestFriendsPicture3 {
+    background: url(assets/images/Maxime\ Frisou.svg);
+    width: 30px;
+    height: 30px;
 }
 
+.bestFriendsPictures {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 25vh;
+    margin-left: 1vw;
+    width: 40px;
+}
 
+.bestFriendsLabels {
+    display: flex;
+    width: 12vw;
+    flex-direction: column;
+}
 
+.bestFriendsLabels a {
+    width: 100px;
+}
 
 .test {
     height: 222vh;

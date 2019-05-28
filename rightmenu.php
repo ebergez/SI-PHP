@@ -20,11 +20,19 @@
   </ul>
 </div>
 <h2 class="bestFriendsTitle">Meilleurs amis</h2>
-<ul class="bestFriends">
-  <li><img src="assets/images/Maxime Frisou.svg" alt=""><a href="" class="bestFriendsName">Maxime Frisou</a></li>
+<div class="bestFriendsContent">
 
-  <li><img src="assets/images/Jane Meyer.svg" alt=""><a href="" class="bestFriendsName">Jane Meyer</a></li>
+  <ul class="bestFriendsPictures">
+    <div class="bestFriendsPicture1"></div>
+    <div class="bestFriendsPicture2"></div>
+    <div class="bestFriendsPicture3"></div>
+  </ul>
 
-  <li><img src="" alt=""><a href="" class="bestFriendsName">Thomas Smith</a></li>
-</ul>
+  <ul class="bestFriendsLabels">
+    <a href="">Maxime Frisou</a>
+    <a href="">Jane Meyer</a>
+    <a href="">Kelkun Dotre</a>
+  </ul>
+
+</div>
 </section>
