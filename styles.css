@@ -278,7 +278,7 @@ input[type="search"] {
 .recentProjectsContent {
     display: flex;
     flex-wrap: nowrap;
-    height: 500px;
+    height:  px;
     margin-left: 5px;
     margin-top: 5px;
 }
@@ -322,13 +322,10 @@ input[type="search"] {
     font-size: 16px;
     text-decoration: none;
     color: #000000;
-}
-
-.test {
-    height: 222vh;
-    background: linear-gradient(black,blue,red,black)
+    line-height: 20px;
 }
 
 li a {
     text-decoration: none;
 }
+

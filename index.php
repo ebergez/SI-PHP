@@ -7,8 +7,8 @@
     <title>HUMANS</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<?php $pdo = new PDO(
-    'mysql:host=localhost;dbname=SI PHP;',
+<?php  $pdo = new PDO(
+    'mysql:host=localhost;dbname=siphp;',
     'root',
     '',
     [
@@ -16,19 +16,18 @@
         PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
     ]
 );
+if (isset($_SESSION)) {
+    header('Location:login.php');
+};
 session_start();
-$_SESSION["prenom"]= "Amanda";
-$_SESSION["nom"]= "Johnson" ;
-$_SESSION["followers"]= 12; 
-$_SESSION["abonnements"]= 33; 
-$_SESSION["projects"]= 42 ;
+
 
 ?>
 <body>
 <?php include 'menu.php'?>
 <?php include 'header.php'?>
 <?php include 'rightmenu.php'?>
-<section class="test"></section>
+
 	
 </body>
 <?php session_destroy()?>

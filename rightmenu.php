@@ -51,9 +51,11 @@
   </ul>
 
   <ul class="recentProjectsLabels">
-    <a href="">Construction école au Mali</a>
+    <?php
+    echo '<a href="">Construction école au Mali</a>
     <a href="">Soutient famille Fiacre</a>
-    <a href="">Les Valis Help</a>
+    <a href="">Les Valis Help</a>'
+    ?>
   </ul>
 
 </div>
