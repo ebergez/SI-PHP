@@ -16,8 +16,8 @@
         PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
     ]
 );
-if (isset($_SESSION)) {
-    header('Location:login.php');
+if (!isset($_SESSION)) {
+    header('Location:signup.php');
 };
 session_start();
 

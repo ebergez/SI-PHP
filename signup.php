@@ -40,7 +40,7 @@
     <div class="mdp">Mot de passe oublié ? </div>
    <div class="join">
 <?php
-   echo '<a href="/SI-PHP-master/signin.php"><img src="./assets/images/join.png" alt="rejoins"/></a>'
+   echo '<a href="signin.php"><img src="./assets/images/join.png" alt="rejoins"/></a>'
    ?>
    </div>
 
